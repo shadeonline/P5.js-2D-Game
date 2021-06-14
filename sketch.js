@@ -1,26 +1,3 @@
-//Game Project
-/*
-In this game project, there are two main extensions I added. They are the improved graphics of the controllable character and the platforms. For the 
-character, I improved the graphics by animating the walking motion of the character. The way I accomplish this task is to draw four frames of the character
-in different postures for moving left and moving right. Then I compile them into two separate arrays, one for the moving left and one for moving right. 
-So when I press the left button or the right button, it will display the four frames of the character in different posture one by one and repeat using 
-"frameCount % the length of the array" to change the index of the array.
-
-I also added platforms as a feature of my project. I managed to accomplish this by creating a variable FloorPos_Y, which defines where the character can 
-stand. When the character is above the y coordinate of the platforms and on top of the platform, the FloorPos_Y will be changed to the Y position of the
-platform. This will allow the character to stand on top of the platform.
-
-One of the difficulties I faced in this project was that it was hard to find bugs. Sometimes there may be no error message, and the code runs without a hitch.
-However, upon comprehensive testing, new bugs are discovered. These kind of bugs are hard to detect and solve as there are little to no clue as to why it 
-occurs. Therefore to solve these bugs, I will recall the changes I made previously and check through them again. I also pick up the habit of commenting on 
-my codes. This helps me greatly in pinpointing changes made when I come back to the code at a later point in time. It allows me to resolve bugs faster.
-
-Overall, implementing different extensions help trained my debugging skills. Often things would not work as expected, but with meticulous checking, 
-it is possible to resolve those bugs.
-
-*/
-
-
 var floorPos_y;
 var groundPos_Y;
 var state;
